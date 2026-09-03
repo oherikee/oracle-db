@@ -38,7 +38,6 @@ Sempre que possível, são utilizadas evidências provenientes do próprio Oracl
 
 | Caso | Descrição |
 |---|---|
-| [ORA-01078 — Missing Parameter File](./ora-01078-missing-parameter-file/) | Instância não consegue iniciar porque o arquivo de parâmetros esperado não está disponível. |
 | [ORA-01589 — Database Requires RESETLOGS or NORESETLOGS](./ora-01589-db-open/) | Database permanece em MOUNTED e exige `RESETLOGS` ou `NORESETLOGS` para ser aberta. |
 
 > Novos casos serão adicionados conforme forem confrontados.
