@@ -216,9 +216,7 @@ Este caso reforçou alguns pontos importantes de administração Oracle:
 
 Os principais registros utilizados durante a investigação foram:
 
-- `cloneDBCreation.log`
-- `CloneRmanRestore.log`
-- `trace.log`
+- [trace.log](/Oracle-db/troubleshooting/ora-01589-db-open/logs/trace.log)
 
 Entre as evidências encontradas estão:
 
@@ -238,6 +236,6 @@ ALTER DATABASE "orcl" OPEN RESETLOGS;
 
 ## Referências
 
-- Oracle Database 19c Documentation
-- Oracle Database Backup and Recovery Documentation
-- Oracle Database Administrator's Guide
+- [Oracle Database 19c Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/index.html)
+- [Oracle Database Backup and Recovery User's Guide](https://docs.oracle.com/en/database/oracle/oracle-database/19/bradv/)
+- [Oracle Database Administrator's Guide](https://docs.oracle.com/en/database/oracle/oracle-database/19/admin/)

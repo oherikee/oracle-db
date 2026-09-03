@@ -2,7 +2,7 @@
 
 Coleção de casos de troubleshooting relacionados ao Oracle Database.
 
-O objetivo desta seção é documentar problemas de forma estruturada, dando ênfase ao processo de investigação e diagnóstico, e não apenas à solução final.
+O objetivo desta seção é documentar problemas de forma estruturada, dando ênfase ao processo de investigação e diagnóstico.
 
 ## Abordagem
 
@@ -11,17 +11,13 @@ Um problema de banco de dados raramente deve ser tratado apenas pelo erro aprese
 A abordagem utilizada aqui é:
 
 ```text
+Cenário
+   ↓
 Sintoma
    ↓
 Coleta de evidências
    ↓
-Análise
-   ↓
-Hipóteses
-   ↓
 Diagnóstico
-   ↓
-Correção
    ↓
 Validação
 ```
@@ -45,7 +41,7 @@ Sempre que possível, são utilizadas evidências provenientes do próprio Oracl
 | [ORA-01078 — Missing Parameter File](./ora-01078-missing-parameter-file/) | Instância não consegue iniciar porque o arquivo de parâmetros esperado não está disponível. |
 | [ORA-01589 — Database Requires RESETLOGS or NORESETLOGS](./ora-01589-db-open/) | Database permanece em MOUNTED e exige `RESETLOGS` ou `NORESETLOGS` para ser aberta. |
 
-> Novos casos serão adicionados conforme forem encontrados e investigados.
+> Novos casos serão adicionados conforme forem confrontados.
 
 ## Estrutura dos casos
 

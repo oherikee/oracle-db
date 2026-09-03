@@ -4,17 +4,11 @@ Repositório dedicado a estudos, experimentos, troubleshooting e casos práticos
 
 O objetivo é documentar situações de administração e diagnóstico de forma reproduzível, registrando não apenas os comandos utilizados, mas também o contexto, as evidências coletadas, o raciocínio utilizado para chegar ao diagnóstico e a validação da solução.
 
-Este repositório será continuamente alimentado com novos estudos, experimentos e, futuramente, casos encontrados em ambientes reais.
+Este repositório será continuamente alimentado com novos estudos, experimentose casos encontrados em ambientes reais.
 
 ## Objetivos
 
-- Aprofundar conhecimentos em administração Oracle Database;
-- Desenvolver capacidade de troubleshooting;
-- Praticar backup, restore e recovery com RMAN;
-- Estudar performance e diagnóstico de problemas;
-- Documentar procedimentos administrativos;
-- Criar uma base de referência para consultas futuras;
-- Registrar casos reais e experiências práticas ao longo da carreira.
+Este repositório tem como objetivo aprofundar meus conhecimentos em administração do Oracle Database, desenvolver minha capacidade de troubleshooting, praticar processos de backup, restore e recovery com RMAN, estudar performance e diagnóstico de problemas, além de documentar procedimentos administrativos e construir uma base de referência para consultas futuras. Também será utilizado para registrar casos reais e experiências práticas adquiridas ao longo da minha carreira.
 
 ## Estrutura
 
@@ -50,6 +44,7 @@ oracle-db/
 ```
 
 > A estrutura pode evoluir conforme novos temas e casos forem documentados.
+> Apenas documentações revisadas estarão visíveis.
 
 ## Metodologia
 
@@ -62,24 +57,14 @@ Sintoma
    ↓
 Coleta de evidências
    ↓
-Hipóteses
-   ↓
 Diagnóstico
    ↓
-Solução
-   ↓
 Validação
-   ↓
-Lições aprendidas
 ```
-
-A intenção é evitar uma abordagem baseada apenas em "qual comando resolve o erro".
-
-O foco é compreender **por que o problema ocorreu, quais evidências sustentam o diagnóstico e quais consequências a solução pode ter**.
 
 ## Principais áreas
 
-### Administration
+### Administração
 
 Procedimentos relacionados à administração do Oracle Database, incluindo:
 
@@ -133,9 +118,5 @@ Registro de problemas encontrados durante estudos ou em ambientes reais, sempre 
 - Solução;
 - Validação;
 - Impactos e considerações.
-
-## Filosofia
-
-> **Não basta saber qual comando executar. É necessário entender o que está acontecendo com o banco.**
 
 Este repositório existe para transformar conhecimento teórico em experiência prática e documentada.
