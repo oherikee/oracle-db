@@ -216,7 +216,7 @@ Este caso reforçou alguns pontos importantes de administração Oracle:
 
 Os principais registros utilizados durante a investigação foram:
 
-- [trace.log](/logs/trace.log)
+- [trace.log](/Oracle-db/troubleshooting/ora-01589-db-open/logs/trace.log)
 
 Entre as evidências encontradas estão:
 
