@@ -1,0 +1,31 @@
+-- Recovery executado no laboratório
+
+-- RMAN
+RESTORE DATAFILE 14;
+RECOVER DATAFILE 14;
+
+-- Validação posterior
+SELECT
+    file#,
+    name,
+    checkpoint_change#,
+    checkpoint_time,
+    fuzzy,
+    recover
+FROM v$datafile_header
+WHERE file# = 14;
+
+CONNECT recovery_lab/"RecoveryLab123"@//localhost:1521/orclpdb1
+
+SELECT
+    COUNT(*) AS total_rows,
+    MIN(id) AS min_id,
+    MAX(id) AS max_id
+FROM recovery_data;
+
+SELECT
+    MIN(id) AS min_id,
+    MAX(id) AS max_id,
+    COUNT(*) AS total_rows
+FROM recovery_data
+WHERE id BETWEEN 1001 AND 2000;
